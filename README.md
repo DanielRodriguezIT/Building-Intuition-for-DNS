@@ -20,11 +20,11 @@ In this lab we will be experimenting with DNS. This lab will help us have a bett
 - Active Directory Virtual Machine
 - Client Machine joined to your domain
 
-<h2>Installation Steps</h2>
+<h2>Lab Steps</h2>
 <p>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First we will be inspecting DNS A-Records on the server A records are hostname to IP address mappings. We are going to create a DNS record on DC-1 for "mainframe" and have it point to DC-1's private IP address. If we run the the command "nslookup mainframe" on the client-1 machine it will give us an IP address. 
 </p>
 <br />
 
